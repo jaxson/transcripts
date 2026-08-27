@@ -15,8 +15,7 @@ Files are dated `MM-DD-YYYY <Event Name> Raw Transcript`. Raw means unedited mac
 output. Do not clean up a raw file in place; add the edited version as a separate file
 so the original stays comparable against later transcription runs.
 
-Transcripts are produced with `/transcribe` or the tooling in
-`$GITHUB/utils/transcription-tools/`.
+Transcripts are produced with mlx-whisper (`mlx-community/whisper-large-v3-turbo`).
 
 This is a public GitHub repo. Check that a recording was cleared for publication before
 adding it.
